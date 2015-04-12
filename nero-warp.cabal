@@ -24,7 +24,7 @@ source-repository head
 library
   exposed-modules:     Nero.Warp
   build-depends:       base >=4.6 && <4.9,
-                       nero,
+                       nero >=0.3,
                        nero-wai,
                        warp
   default-language:    Haskell2010

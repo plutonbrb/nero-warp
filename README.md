@@ -11,6 +11,7 @@ import Nero (ok)
 
 main :: IO ()
 main = serve 8080 $ ok "<h1>Hello there</h1>"
+```
 
 [![Build Status](https://img.shields.io/travis/plutonbrb/nero-warp.svg)](https://travis-ci.org/plutonbrb/nero-warp)
 

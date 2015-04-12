@@ -4,8 +4,8 @@ follows the formatting recommendations from [Keep a
 CHANGELOG](http://keepachangelog.com/). This project adheres to [Semantic
 Versioning](http://semver.org/).
 
-## [Unreleased][unreleased]
+## [0.3][0.3]
 ## Added
-- Simple `serve` handler.
+- Bare miminal `serve` handler.
 
-[unreleased]: https://github.com/plutonbrb/nero-warp/compare/...HEAD
+[0.3]: https://github.com/plutonbrb/nero-warp/compare/4034d9ce...v0.3
