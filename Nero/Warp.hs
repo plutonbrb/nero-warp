@@ -5,9 +5,9 @@ module Nero.Warp
   ) where
 
 import Network.Wai.Handler.Warp (Port, run)
-import Nero.Application (Server(application))
+import Nero.Application (Application, Server(..))
 import Nero.Wai (waify)
 
 -- | Run a @Nero@ 'Nero.Application' with @Warp@ on the given port.
-serve :: Server a => Port -> a -> IO ()
-serve p = run p . waify . application
+serve :: Server c => Port -> Application c -> IO ()
+serve p = run p . waify . server
